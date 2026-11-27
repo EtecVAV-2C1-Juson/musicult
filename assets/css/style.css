@@ -433,7 +433,6 @@ body {
 
 
 @media (max-width: 768px) {
-    /* Banner Principal */
     .hero-section {
         min-height: auto;
         padding: 60px 20px;
@@ -494,9 +493,7 @@ body {
     }
 }
 
-/* =================================================
-   PÁGINA DE CURSOS (ATUALIZADA)
-   ================================================= */
+
 .courses-hero {
     width: 100%;
     padding: 80px 20px;
@@ -532,7 +529,7 @@ body {
     line-height: 1.6;
 }
 
-/* Barra de pesquisa */
+
 .search-bar-container {
     max-width: 500px;
     margin: 0 auto;
@@ -559,7 +556,7 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Seção de Catálogo */
+
 .artists-catalog-section {
     padding: 80px 6%;
     background-color: #f8fafc;
@@ -579,7 +576,7 @@ body {
     margin-bottom: 45px;
 }
 
-/* Grid de Artistas */
+
 .artists-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -656,7 +653,7 @@ body {
     transform: translateX(4px);
 }
 
-/* Responsivo para mobile */
+
 @media (max-width: 768px) {
     .courses-hero {
         padding: 60px 20px;
@@ -676,11 +673,9 @@ body {
     }
 }
 
-/* =================================================
-   PÁGINA INTERNA DA AULA (AULA.PHP)
-   ================================================= */
 
-/* Banner escuro da aula */
+
+
 .lesson-hero {
     width: 100%;
     padding: 70px 6% 80px 6%;
@@ -737,7 +732,7 @@ body {
     margin-bottom: 35px;
 }
 
-/* Caixa de Objetivo e Duração */
+
 .lesson-meta-box {
     display: flex;
     align-items: center;
@@ -775,7 +770,7 @@ body {
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-/* Área principal de leitura */
+
 .lesson-main {
     background-color: #f8fafc;
     padding: 60px 6% 90px 6%;
@@ -786,7 +781,7 @@ body {
     margin: 0 auto;
 }
 
-/* Sumário com visual em degradê suave */
+
 .lesson-toc {
     background-color: #ffffff;
     border-radius: 14px;
@@ -841,7 +836,7 @@ body {
     border-radius: 6px;
 }
 
-/* Blocos de Tópicos (Tabela `secoes`) */
+
 .lesson-topic-block {
     background-color: #ffffff;
     border-radius: 14px;
@@ -892,7 +887,7 @@ body {
     line-height: 1.6;
 }
 
-/* Navegação inferior */
+
 .lesson-footer-nav {
     display: flex;
     justify-content: space-between;
@@ -929,7 +924,7 @@ body {
     background-color: #1b324d;
 }
 
-/* Responsividade Mobile */
+
 @media (max-width: 768px) {
     .lesson-hero {
         padding: 50px 5% 60px 5%;
@@ -965,9 +960,7 @@ body {
     }
 }
 
-/* =================================================
-   PÁGINA DO SIMULADO (SIMULADO.PHP)
-   ================================================= */
+
 .simulado-hero {
     width: 100%;
     padding: 80px 20px;
@@ -1002,7 +995,7 @@ body {
     line-height: 1.6;
 }
 
-/* Corpo Principal do Simulado */
+
 .simulado-main {
     padding: 70px 6%;
     background-color: #f8fafc;
@@ -1014,7 +1007,7 @@ body {
     margin: 0 auto;
 }
 
-/* Caixa de Instruções */
+
 .simulado-instructions {
     background-color: #ffffff;
     border-radius: 12px;
@@ -1037,13 +1030,53 @@ body {
     line-height: 1.6;
 }
 
-
-.placeholder-icon {
-    font-size: 36px;
-    margin-bottom: 15px;
+.quiz-question-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(39, 76, 119, 0.06);
+    border: 1px solid #e2e8f0;
 }
 
-/* Botão de Envio do Simulado */
+.quiz-question-card h3 {
+    font-size: 17px;
+    color: #1e293b;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #334155;
+    transition: all 0.2s ease;
+}
+
+.option-label:hover {
+    background-color: #f8fafc;
+    border-color: #274C77;
+}
+
+.option-label input[type="radio"] {
+    accent-color: #274C77;
+    width: 17px;
+    height: 17px;
+}
+
+
 .simulado-actions {
     text-align: center;
 }
@@ -1065,7 +1098,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* Responsividade Mobile */
+
 @media (max-width: 768px) {
     .simulado-hero {
         padding: 60px 20px;
@@ -1084,9 +1117,7 @@ body {
     }
 }
 
-/* =================================================
-   PÁGINA DE RESULTADOS (RESULTADO.PHP)
-   ================================================= */
+
 .result-hero {
     width: 100%;
     padding: 80px 20px;
@@ -1132,7 +1163,7 @@ body {
     line-height: 1.6;
 }
 
-/* Área principal do cartão de resultado */
+
 .result-main {
     padding: 70px 6%;
     background-color: #f8fafc;
@@ -1144,7 +1175,6 @@ body {
     margin: 0 auto;
 }
 
-/* Cartão claro com o resumo da nota (baseado no anexo) */
 .result-card {
     background-color: #ffffff;
     border-radius: 14px;
@@ -1191,9 +1221,9 @@ body {
     flex-direction: column;
     gap: 12px;
     min-height: 80px;
+    margin-top: 15px;
 }
 
-/* Classe pronta para você usar nos itens gerados pelo loop PHP */
 .analysis-item {
     display: flex;
     justify-content: space-between;
@@ -1210,7 +1240,6 @@ body {
     color: #274C77;
 }
 
-/* Botões inferiores */
 .result-actions {
     display: flex;
     justify-content: space-between;
@@ -1246,7 +1275,6 @@ body {
     background-color: #1b324d;
 }
 
-/* Responsividade Mobile */
 @media (max-width: 768px) {
     .result-hero {
         padding: 60px 20px;
